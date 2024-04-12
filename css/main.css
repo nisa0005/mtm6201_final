@@ -13,45 +13,45 @@
 
 /* colours button */
 .btn-primary {
-    --bs-btn-color: var(--bs-dark);
-    --bs-btn-bg: var(--bs-primary);
-    --bs-btn-border-color: var(--bs-primary);
-    --bs-btn-hover-color: var(--bs-light);
-    --bs-btn-hover-bg: var(--cs-primary-dark);
-    --bs-btn-hover-border-color: var(--cs-primary-dark);
-    --bs-btn-active-color: var(--bs-light);
-    --bs-btn-active-bg: var(--cs-primary-dark);
-    --bs-btn-active-border-color: var(--cs-primary-dark);
-    --bs-btn-disabled-color: var(--bs-dark);
-    --bs-btn-disabled-bg: var(--bs-primary);
-    --bs-btn-disabled-border-color: var(--bs-primary);
-  }
+  --bs-btn-color: var(--bs-dark);
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary);
+  --bs-btn-hover-color: var(--bs-light);
+  --bs-btn-hover-bg: var(--cs-primary-dark);
+  --bs-btn-hover-border-color: var(--cs-primary-dark);
+  --bs-btn-active-color: var(--bs-light);
+  --bs-btn-active-bg: var(--cs-primary-dark);
+  --bs-btn-active-border-color: var(--cs-primary-dark);
+  --bs-btn-disabled-color: var(--bs-dark);
+  --bs-btn-disabled-bg: var(--bs-primary);
+  --bs-btn-disabled-border-color: var(--bs-primary);
+}
 
-  /* colours navbar */
-  .navbar {
-    --bs-navbar-padding-x: 3rem 1em;
-    --bs-navbar-padding-y: 2rem;
-    --bs-navbar-color: var(--bs-light);
-    --bs-navbar-hover-color: var(--bs-primary);
-    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
-    --bs-navbar-active-color: var(--bs-primary);
-    --bs-navbar-brand-margin-y: var(--bs-primary);
-    --bs-navbar-brand-font-size: 1.25rem;
-    --bs-navbar-brand-color: var(--bs-light);
-    --bs-navbar-brand-hover-color: var(--bs-primary);
-    --bs-navbar-nav-link-padding-x: 0.5rem;
-    --bs-navbar-toggler-padding-y: 0.25rem;
-    --bs-navbar-toggler-padding-x: 0.75rem;
-    --bs-navbar-toggler-font-size: 1.25rem;
-    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
-    --bs-navbar-toggler-focus-width: 0.25rem;
-    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+/* colours navbar */
+.navbar {
+  --bs-navbar-padding-x: 3rem 1em;
+  --bs-navbar-padding-y: 2rem;
+  --bs-navbar-color: var(--bs-light);
+  --bs-navbar-hover-color: var(--bs-primary);
+  --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+  --bs-navbar-active-color: var(--bs-primary);
+  --bs-navbar-brand-margin-y: var(--bs-primary);
+  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-color: var(--bs-light);
+  --bs-navbar-brand-hover-color: var(--bs-primary);
+  --bs-navbar-nav-link-padding-x: 0.5rem;
+  --bs-navbar-toggler-padding-y: 0.25rem;
+  --bs-navbar-toggler-padding-x: 0.75rem;
+  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+  --bs-navbar-toggler-focus-width: 0.25rem;
+  --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
 }
 
 /* removes border of hamburger menu icon */
@@ -89,7 +89,7 @@ body {
     margin-top: 14%;
   }
 
-  body{
+  body {
     font-size: 1.2em;
   }
 
@@ -114,10 +114,12 @@ body {
   .wrapper {
     margin-top: 9%;
   }
+
   .mainbtn {
     font-size: medium;
   }
-  body{
+
+  body {
     font-size: 1em;
   }
 }
