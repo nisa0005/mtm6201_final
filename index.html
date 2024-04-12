@@ -11,29 +11,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-  </head>
+<!-- Hover.css Link -->
+<link href="css/hover.css" rel="stylesheet" media="all">
     <title>Critical Care</title>
 </head>
 <body>
 
         <!-- Main Navigation -->
-    <header>
-    <nav class="navbar bg-secondary">
+    <header role="banner">
+    <nav class="navbar bg-secondary" role="navigation">
         <div class="container-fluid">
-          <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler button hvr-grow" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="#">Critical Care</a>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link text-center" href="#">Departments</a>
+                <a class="nav-link text-center" href="#" aria-label="Access departments page">Departments</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#">Maintenance Repair Form</a>
+                <a class="nav-link text-center" href="#" aria-label="Access maintenance repair form page">Maintenance Repair Form</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-center" href="#">Logout</a>
+                <a class="nav-link text-center" href="#" aria-label="Logout of your account">Logout</a>
               </li>
             </ul>
           </div> <!-- closes .collapse-->
@@ -41,11 +42,11 @@
       </nav>
 
       <!-- Buttons -->
-      <div class="container text-center">
+      <div class="container-fluid text-center wrapper">
         <div class="row gap-5 col-10 mx-auto">
-            <button type="button" class="btn btn-primary p-5 btn">Dashboard</button>
-            <button type="button" class="btn btn-primary p-5 btn">Rooms</button>
-            <button type="button" class="btn btn-primary p-5 btn">Maintenance Repair Form</button>
+            <button type="button" class="btn btn-primary p-5 hvr-grow mainbtn" aria-label="Access dashboard page">Dashboard</button>
+            <button type="button" class="btn btn-primary p-5 hvr-grow mainbtn" aria-label="Access rooms page">Rooms</button>
+            <button type="button" class="btn btn-primary p-5 hvr-grow mainbtn" aria-label="Access maintenance repair form page">Maintenance Repair Form</button>
         </div> <!-- closes row -->
       </div> <!-- closes .container -->
 </header>
